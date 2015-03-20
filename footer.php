@@ -10,14 +10,14 @@
 					<div class="col-lg-8 col-md-8">
 						<div class="footer-nav">
 							<ul>
-								<li><a href="">Team</a></li>
-								<li><a href="">Contact</a></li>
-								<li><a href="">AGB</a></li>
-								<li><a href="">Impressum</a></li>
-								<li><a href="">Jobs</a></li>
-								<li><a href="">Newsletter</a></li>
-								<li><a href="">Raumvermietung</a></li>
-								<li><a href="">Gutschein</a></li>
+								<li><a href="http://localhost/wordpress/?page_id=172">Team</a></li>
+								<li><a href="http://localhost/wordpress/?page_id=175">Contact</a></li>
+								<li><a href="http://localhost/wordpress/?page_id=177">AGB</a></li>
+								<li><a href="http://localhost/wordpress/?page_id=179">Impressum</a></li>
+								<li><a href="http://localhost/wordpress/?page_id=228">Jobs</a></li>
+								<li><a href="http://localhost/wordpress/?page_id=183">Newsletter</a></li>
+								<li><a href="http://localhost/wordpress/?page_id=185">Raumvermietung</a></li>
+								<li><a href="http://localhost/wordpress/?page_id=187">Gutschein</a></li>
 							</ul>
 						</div> 
 					</div><!-- end footer-nav -->

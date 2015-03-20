@@ -10,7 +10,23 @@
 					<div class="articles">
 						<article>
 							<header>
-								<p class="article-meta-categories"><a href="#">Description</a></p>
+								<p class="article-meta-categories"><a href="#">
+									<div id="breadcrumbs">
+									  <a href="<?php echo get_bloginfo('url'); ?>" title="">Home</a>
+									  <?php
+									    $parent_id  = $post->post_parent;
+									    $breadcrumbs = array();
+									    while ($parent_id) {
+									      $page = get_page($parent_id);
+									      $breadcrumbs[] = '<a href="'.get_permalink($page->ID).'" title="">'.get_the_title($page->ID).'</a>';
+									      $parent_id  = $page->post_parent;
+									    }
+									    $breadcrumbs = array_reverse($breadcrumbs);
+									    foreach ($breadcrumbs as $crumb) echo ' > '.$crumb;
+									  ?>
+									  <a href="#" title=""> > <?php the_title(); ?></a>
+									</div>
+								</a></p>
 								<h1><a href="index.html"><?php the_title(); ?></a></h1>
 							</header> <!-- end article header -->
 							<p>

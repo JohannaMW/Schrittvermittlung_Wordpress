@@ -328,6 +328,11 @@ article p {
 			text-decoration: none;
 		}
 			
+#breadcrumbs a {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
 
 /* BOOTSTRAP */
 /*!
