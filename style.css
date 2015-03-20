@@ -238,8 +238,10 @@ p {
 .image {
 	z-index: 100;
 	position: absolute;
-	width: 20% !important;
+	width: 25% !important;
 	margin-top: -20px;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -258,6 +260,9 @@ p {
     margin-right: 60px;
 }
 
+.articles header {
+  margin-left: 500px;
+}
 
 article h1 a {
 	color: #f15b23;
@@ -271,6 +276,7 @@ article h1 a:hover {
 
 article p {
 	font-size: 17px;
+  margin-left: 500px;
 }
 
 .article-meta-categories {
