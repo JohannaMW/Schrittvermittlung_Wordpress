@@ -234,18 +234,16 @@ p {
 					text-decoration: none;
 				}
 
-
+/* custom page image */
 .image {
 	z-index: 100;
 	position: absolute;
-	width: 100%;
+	width: 20% !important;
 	margin-top: -20px;
 }
 
-.text {
-    position:relative;
-}
 
+/* gray background image */
 .text img {
 	width: 100%;
 	height: 509px;
@@ -257,9 +255,9 @@ p {
 .articles {
     z-index: 100;
     position: absolute;
-    margin-left: 470px;
     margin-right: 60px;
 }
+
 
 article h1 a {
 	color: #f15b23;

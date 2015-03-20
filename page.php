@@ -2,11 +2,8 @@
 	<?php while(have_posts()) : the_post(); ?>
 	<!-- MAIN CONTENT -->
 		<div class="row">
-			<div class="image" style="margin: 0; padding:0">
-					<img src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/image-content.png">
-			</div> <!-- end span4 -->
 			<div class="text" style="margin: 0; padding:0">
-					<img src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/image-background.png">
+				<img src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/image-background.png">
 					<div class="articles">
 						<article>
 							<header>
