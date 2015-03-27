@@ -238,7 +238,9 @@ p {
 .image {
 	z-index: 100;
 	position: absolute;
-	width: 25% !important;
+  float: left;
+  height: 509px;
+  width: 420px !important;
 	margin-top: -20px;
   margin: 0;
   padding: 0;
