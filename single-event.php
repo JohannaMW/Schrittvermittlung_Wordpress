@@ -27,8 +27,6 @@
 			</div>
 
 			<p> Es sind noch <?php echo $EM_Event->output('#_AVAILABLESPACES'); ?> Plätze frei! </p>
-
-
 		</div><!-- #content -->
 	</div><!-- #primary -->
 </div>

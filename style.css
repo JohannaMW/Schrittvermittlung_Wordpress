@@ -351,6 +351,9 @@ article p {
   margin-left: 500px;
 }
 
+.mc4wp-alert {
+  margin-left: 500px !important;
+}
 /* BOOTSTRAP */
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
