@@ -3,7 +3,7 @@
 <div class="text" style="margin: 0; padding:0">
 	<img src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/image-background.png">
 	<div class="articles">
-		<img class="image" src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/image-content.png">
+		<img class="image" src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/anmeldung.png">
 	</div>
 	<div id="primary">
 		<div id="content" role="main">
