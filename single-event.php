@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <div class="text" style="margin: 0; padding:0">
-	<img src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/image-background.png">
+	<img style="height:700px;" src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/image-background.png">
 	<div class="articles">
-		<img class="image" src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/anmeldung.png">
+		<img style="height:700px;" class="image" src="http://localhost/wordpress/wp-content/themes/schrittvermittlung/images/anmeldung.png">
 	</div>
 	<div id="primary">
 		<div id="content" role="main">
