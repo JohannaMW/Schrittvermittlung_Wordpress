@@ -195,9 +195,9 @@ p {
 
 		.navigation ul li:hover {
 			background: #4b545f;
-			background: linear-gradient(top, #3e2415 0%, #513A2C 40%);
-			background: -moz-linear-gradient(top, #3e2415 0%, #513A2C 40%);
-			background: -webkit-linear-gradient(top, #3e2415 0%,#513A2C 40%);
+			background: linear-gradient(top, #C0B89F 0%, #D9D4C5 40%);
+			background: -moz-linear-gradient(top, #C0B89F 0%, #D9D4C5 40%);
+			background: -webkit-linear-gradient(top, #C0B89F 0%, #D9D4C5 40%);
 		}
 			.navigation ul li:hover a {
 				color: #fff;
@@ -211,7 +211,7 @@ p {
 		}
 			
 	.navigation ul ul {
-		background: #3e2415; 
+		background: #C0B89F; 
 		border-radius: 0px; 
 		padding: 0;
 		position: absolute; 
@@ -219,8 +219,8 @@ p {
 	}
 		.navigation ul ul li {
 			float: none;
-			border-top: 1px solid #513A2C;
-			border-bottom: 1px solid #624E41; 
+			border-top: 1px solid #D9D4C5;
+			border-bottom: 1px solid #E1DDD1; 
 			position: relative;
 		}
 			.navigation ul ul li a {
@@ -230,7 +230,7 @@ p {
 				text-align: left;
 			}	
 				.navigation ul ul li a:hover {
-					background: #513A2C;
+					background: #D9D4C5;
 					text-decoration: none;
 				}
 
@@ -260,10 +260,16 @@ p {
     z-index: 100;
     position: absolute;
     margin-right: 60px;
-}
+  }
 
 .articles header {
   margin-left: 500px;
+}
+
+.entry-header h1 {
+  color: #f15b23 !important;
+  font-size: 46px;
+  margin-top: 40px;
 }
 
 article h1 a {
@@ -338,6 +344,11 @@ article p {
   font-size: 13px;
   text-decoration: none;
   color: black;
+}
+
+#content {
+  position: absolute;
+  margin-left: 500px;
 }
 
 /* BOOTSTRAP */

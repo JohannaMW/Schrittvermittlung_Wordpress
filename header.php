@@ -10,6 +10,10 @@
 
 		<!-- Stylesheet -->
 		<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" ref="css/style.css"/>
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
 
 		<!-- [if lt IE9]>
 			<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
